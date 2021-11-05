@@ -1,0 +1,122 @@
+<!DOCTYPE html/>
+
+<html lang="en">
+
+<head>
+<title> Webpage by Abdullah </title>
+<style>
+body { background-color:lightblue;}
+h1 { color: White;
+     font-family: verdana;
+     font-size: 20px; }
+h2 { color: cyan;
+     font-family: helvetica;
+     font-size: 25px;	
+	border: 2px solid red;
+	}
+h3 { color: maroon;
+     font-family: chiller;
+     font-size: 25px;
+     border: 3px solid yellow;
+	}
+p1 {  color: purple;
+font-family: Calibri;	
+font-weight: bold;
+font-size: 23px;
+	}
+p { text-align: center;
+	}
+
+td,tr { color: blue;
+	border: 1px solid black;
+	background-color: pink;
+	border-collapse:collapse;
+	padding:5px;
+	text-align:center;}
+
+div { font-size: 30px;}
+
+</style>
+</head>
+
+<body>
+<h1> Hello, this is h1 </h1>
+
+<h2> This is perhaps a good way of understanding the size of font. Here is h2 </h2>
+
+<h3> This is another one h3 </h3>
+
+<h4 style= "color: red";"font-size: 30px;"> this is the forth heading, and I am using
+ html style coding for this particular one and not css
+</h4>
+
+
+<p1>And this is for writing a paragraph on the webpage :) </p1>
+
+
+<br>
+<br>
+<p>
+<a href="https://www.yahoo.com" > Log into yahoo here </a></p>
+<button onclick ="https://www.google.com" target="_blank">Click for Google
+</button>
+
+<p style="background-color:lightblue";> This is where I <del>write</del> <big>express</big> in stuffs in another background</p>
+<p style="background-color: lightyellow";> this is how I <mark>higlight</mark> things
+<br> also when I <ins>underline</ins> things as well as I do<sup>not</sup> write like this when I am mad
+
+
+<a href="frenchfood.jpg" onclick="myfunction()">click here for fun</a>
+
+<script>function myfunction()
+{ alert("le croissant french!");}
+</script>
+<br>
+<a href="https://www.google.com" onclick="myfunction()"> click here again to see</a>
+<script> function myfunction()
+{ alert("fthis is gettting more interesting" ); }
+</script>
+
+<br>
+however when I am <big>mad</big> I do write it this way abso<sub>lutely</sub>!!!!
+
+<pre>Writing in PRE would be like this too,, is'nt it fun? </pre>
+</p>
+<img src="ball.png" alt="if image does not open up, alternate text comes in here?" title= "this is where your write a title on mouse hovering" height= "275px" width= "200px" >
+
+
+<br>
+<table style="width:25%" border 2px solid;>
+<caption> Random table </caption>
+<tr>
+<th> SNo.</th>
+<th> Name</th>
+<th> Place </th>
+</tr>
+<tr>
+<td>1</td>
+<td>Amro</td>
+<td>USA</td>
+</tr>
+
+</table>
+<div>
+hello world
+
+</div>
+<br>
+<img src='M.Ali-quote.png'alt='quote' width=auto height=auto>
+<br>
+
+<a href="C:\Users\Jrpm\OneDrive - Heritage Management Inc\Desktop\second page.html" title="abdullah"> Click here for Second PAGE</a>
+
+<div>
+<a href="link.html" alt=about me > About me  </a>
+<a href="link.html"> Cities Visited</a>
+<a href="link.html" >Interests</a>
+<a href="link.html">My Shots</a>
+</div>
+
+</body>
+</html>
+
