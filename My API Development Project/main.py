@@ -13,12 +13,13 @@ def hello():
 def fun():
     name =input ("whats your name? ")
     return {f"thanks {name}"}
+    
 
 @app.get("/")
 def root():
     return {"this is the root page"}
 
-@app.get("/inquire")
+@app.get("/catfact")
 def inquire():
     req = requests.get("https://catfact.ninja/fact")
     return req.json()

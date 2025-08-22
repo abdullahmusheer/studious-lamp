@@ -7,7 +7,7 @@
             // Perform all available fixes on save
             "source.fixAll": "explicit",
             // Organize imports on save
-            "source.organizeImports": "explicit",
+            "source.organizeImports": "explicit"
         },
         // Set the default code formatter to Ruff, assuming it is installed
         "editor.defaultFormatter": "charliermarsh.ruff"
