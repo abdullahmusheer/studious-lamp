@@ -4,7 +4,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 from dotenv import load_dotenv
 # Get connection URL from environment or hardcode for testing
 #DEV_DATABASE_URL = "postgresql+psycopg2://postgres1:yourpassword@172.29.41.66:5432/inventory"
-load_dotenv()
+load_dotenv() #this command finds for .env file and then 
 DEV_DATABASE_URL = os.getenv("DEV_DATABASE_URL")
 
 # Create engine
@@ -31,6 +31,6 @@ if __name__ == "__main__":
             result = conn.execute(text("SELECT version();"))
             print("✅ Connected to DB:", result.scalar())
     except Exception as e:
-        print("❌ Connection failed:", e)
+        print("❌✅❌✅ Connection failed:", e)
         
 print("Loaded DB URL:", DEV_DATABASE_URL)  # for debugging
